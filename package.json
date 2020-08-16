@@ -1,0 +1,11 @@
+{
+  "name": "daily-world",
+  "version": "1.0.0",
+  "description": "Chrome Extension that shows a brand new English word every day including its meaning and pronunciation",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Stoller",
+  "license": "ISC"
+}

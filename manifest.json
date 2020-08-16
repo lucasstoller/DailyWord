@@ -1,0 +1,19 @@
+{
+  "name": "Daily World",
+  "description": "Chrome Extension that shows a brand new English word every day including its meaning and pronunciation",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "src/hello.html",
+    "default_icon": "images/hello_extensions.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  }
+}
