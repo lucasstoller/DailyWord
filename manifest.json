@@ -1,11 +1,14 @@
 {
-  "name": "Daily World",
+  "name": "Daily Word",
   "description": "Chrome Extension that shows a brand new English word every day including its meaning and pronunciation",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
-    "default_popup": "src/hello.html",
+    "default_popup": "src/popup.html",
     "default_icon": "images/hello_extensions.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/daily-word.html"
   },
   "commands": {
     "_execute_browser_action": {
@@ -13,7 +16,7 @@
         "default": "Ctrl+Shift+F",
         "mac": "MacCtrl+Shift+F"
       },
-      "description": "Opens hello.html"
+      "description": "Opens Extension PopUp"
     }
   }
 }
